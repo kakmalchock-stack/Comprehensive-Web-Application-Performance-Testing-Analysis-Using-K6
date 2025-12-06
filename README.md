@@ -1,6 +1,6 @@
 📑 Table of Contents
 
-## Introduction
+Introduction
 Background & Importance of Performance Engineering
 Concepts of Modern Performance Testing
 Tool Selection Justification: Why K6?
