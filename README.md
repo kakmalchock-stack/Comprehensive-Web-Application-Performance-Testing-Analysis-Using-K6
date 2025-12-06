@@ -1,27 +1,110 @@
 📑 Table of Contents
 
 Introduction
+
 Background & Importance of Performance Engineering
+
 Concepts of Modern Performance Testing
+
 Tool Selection Justification: Why K6?
+
 Test Environment Setup
+
 Detailed Test Methodology
+
 6.1 Breakpoint Test
+
 6.2 Capacity Test
+
 6.3 Ramp-Up Test
+
 Results & Graph Interpretation
+
 7.1 Breakpoint Graph
+
 7.2 Capacity Graph
+
 7.3 Ramp-up Graph
+
 Deep Performance Interpretation
+
 Root-Cause Bottleneck Analysis
+
 Engineering Recommendations
+
 Risk Analysis & Real-World Impact
+
 Scalability Discussion: Vertical vs Horizontal Growth
+
 SLA, SLO, and SLI Implications
+
 Limitations of this Study
+
 Future Work
+
 Final Conclusion
+
+1. Introduction
+
+Performance testing is an essential discipline within software engineering, responsible for ensuring that a system delivers consistent responsiveness, stability, and reliability under various operational conditions. In today’s world — where applications must support global traffic, real-time interactions, and unpredictable load surges — performance failures can have catastrophic consequences.
+
+This study evaluates the performance of https://test.k6.io
+, a publicly accessible demo web application provided specifically for load testing exercises. The purpose of this project is not merely to load the system, but to understand how it behaves under stress, identify its limits, and reveal scalability weaknesses.
+
+To accomplish this, three structured performance tests were conducted using K6, a modern performance testing tool:
+
+Breakpoint Test – to determine the exact user load at which system degradation begins
+
+Capacity Test – to identify the maximum stable load the system can sustain
+
+Ramp-Up Test – to determine scalability under gradual increases in traffic
+
+This extended report aims to present not only the results, but also an in-depth performance analysis, a root-cause investigation, and industry-standard recommendations for improving system reliability.
+
+2. Background & Importance of Performance Engineering
+
+Performance engineering is not just testing with load; it is the holistic evaluation and optimization of system architecture, code, infrastructure, and deployment strategy.
+
+Why it matters:
+📉 Business Failures Caused by Poor Performance
+
+40% of users abandon a website if it takes more than 3 seconds to load
+
+Amazon loses $1.6 billion annually for every 100ms of latency (industry estimate)
+
+A performance failure during a product launch can lead to negative press, investor distrust, and long-term loss of users
+
+📈 Technical Failures
+
+Performance issues can lead to:
+
+CPU saturation
+
+Memory leaks
+
+Cascade failures
+
+Thread pool starvation
+
+Database overload
+
+Network congestion
+
+Downtime
+
+📌 Performance Engineering Covers:
+
+Capacity planning
+
+Scalability modeling
+
+Stress and resilience testing
+
+Backend optimization
+
+Redundancy and failover strategies
+
+This project simulates real-world scenarios to identify early-stage bottlenecks before they become production disasters.
 
 ## 1. Introduction
 
