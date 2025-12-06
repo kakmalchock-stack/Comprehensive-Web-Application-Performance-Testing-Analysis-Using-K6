@@ -137,13 +137,16 @@
         <section id="results">
             <h2>7. Results & Graph Interpretation</h2>
             <h3>7.1 Breakpoint Test</h3>
-            <div class="graph-placeholder">Insert Breakpoint Graph Link Here</div>
+            <div class="graph-placeholder"><img width="755" height="425" alt="breakpoint graf" src="https://github.com/user-attachments/assets/39afb78c-b3fc-4e02-900c-b6019c4e43a7" />
+</div>
 
             <h3>7.2 Capacity Test</h3>
-            <div class="graph-placeholder">Insert Capacity Graph Link Here</div>
+            <div class="graph-placeholder"><img width="719" height="391" alt="capacity graf" src="https://github.com/user-attachments/assets/4767d42d-efe7-413d-8c01-a0c73e15067d" />
+</div>
 
             <h3>7.3 Ramp-Up Test</h3>
-            <div class="graph-placeholder">Insert Ramp-Up Graph Link Here</div>
+            <div class="graph-placeholder"><img width="710" height="388" alt="rampup graf" src="https://github.com/user-attachments/assets/57a693a9-5a72-465e-aab2-9b9be6fe3479" />
+</div>
         </section>
 
         <section id="analysis">
