@@ -22,10 +22,8 @@
 12. Scalability Discussion: Vertical vs Horizontal Growth
 13. SLA, SLO, and SLI Implications
 14. Limitations of this Study
-
-## 15. Future Work
-
-## 16. Final Conclusion
+15. Future Work
+16. Final Conclusion
 
 ## 1. Introduction
 
