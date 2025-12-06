@@ -1,42 +1,27 @@
-**TITLE: Comprehensive Performance Testing & Analysis Using K6 on test.k6.io
+## TITLE: Comprehensive Performance Testing & Analysis Using K6 on test.k6.io
 
 ## Table of Contents
 
-## 1. Introduction
-
-## 2. Background & Importance of Performance Engineering
-
-## 3. Concepts of Modern Performance Testing
-
-## 4. Tool Selection Justification: Why K6?
-
-## 5. Test Environment Setup
-
-## 6. Detailed Test Methodology
-
+1. Introduction
+2. Background & Importance of Performance Engineering
+3. Concepts of Modern Performance Testing
+4. Tool Selection Justification: Why K6?
+5. Test Environment Setup
+6. Detailed Test Methodology
 6.1 Breakpoint Test
 6.2 Capacity Test
 6.3 Ramp-Up Test
-
-## 7. Results & Graph Interpretation
-
+7. Results & Graph Interpretation
 7.1 Breakpoint Graph
 7.2 Capacity Graph
 7.3 Ramp-up Graph
-
-## 8. Deep Performance Interpretation
-
-## 9. Root-Cause Bottleneck Analysis
-
-## 10. Engineering Recommendations
-
-## 11. Risk Analysis & Real-World Impact
-
-## 12. Scalability Discussion: Vertical vs Horizontal Growth
-
-## 13. SLA, SLO, and SLI Implications
-
-## 14. Limitations of this Study
+8. Deep Performance Interpretation
+9. Root-Cause Bottleneck Analysis
+10. Engineering Recommendations
+11. Risk Analysis & Real-World Impact
+12. Scalability Discussion: Vertical vs Horizontal Growth
+13. SLA, SLO, and SLI Implications
+14. Limitations of this Study
 
 ## 15. Future Work
 
